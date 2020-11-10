@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET.CryptoLibrary", "NET.CryptoLibrary\NET.CryptoLibrary.csproj", "{4A1BD635-E5DF-4582-B8D8-411CC45C19F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET.CryptoLibrary.UnitTest", "NET.CryptoLibrary.UnitTest\NET.CryptoLibrary.UnitTest.csproj", "{60E0E54D-B6A4-4DE7-9FAD-64066802161C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A1BD635-E5DF-4582-B8D8-411CC45C19F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1BD635-E5DF-4582-B8D8-411CC45C19F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1BD635-E5DF-4582-B8D8-411CC45C19F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1BD635-E5DF-4582-B8D8-411CC45C19F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E0E54D-B6A4-4DE7-9FAD-64066802161C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E0E54D-B6A4-4DE7-9FAD-64066802161C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E0E54D-B6A4-4DE7-9FAD-64066802161C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E0E54D-B6A4-4DE7-9FAD-64066802161C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FFF4BAC-FE8B-4D3E-A414-3CFED01F78DC}
+	EndGlobalSection
+EndGlobal
