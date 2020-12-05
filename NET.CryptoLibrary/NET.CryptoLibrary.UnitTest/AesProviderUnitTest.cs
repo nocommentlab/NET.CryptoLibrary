@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ncl.net.cryptolybrary.Encryption.AES;
+using ncl.net.cryptolybrary.Encryption.PBKDF2;
 
 namespace NET.CryptoLibrary.UnitTest
 {
@@ -41,6 +42,13 @@ namespace NET.CryptoLibrary.UnitTest
             byte[] vBYTE_EncryptedBuffer = AesProvider.AES_CBC_Encryption_Rand_IV(vBYTE_ToEncrypt, STRING_EncryptionKey);
             byte[] vBYTE_DecryptedBuffer = AesProvider.AES_CBC_Decryption_Rand_IV(vBYTE_EncryptedBuffer, STRING_EncryptionKey);
             Assert.IsTrue(vBYTE_ToEncrypt.SequenceEqual(vBYTE_DecryptedBuffer));
+        }
+
+        [TestMethod]
+        public void T2_001_HashAndVerify()
+        {
+            string STRING_HashedString = PBKDF2Provider.Generate("!//Lab2020");
+            Assert.IsTrue(PBKDF2Provider.IsValid("!//Lab2020", STRING_HashedString));
         }
     }
 }
